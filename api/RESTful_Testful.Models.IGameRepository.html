@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Game
+    <title>Interface IGameRepository
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Game
+    <meta name="title" content="Interface IGameRepository
    ">
     <meta name="generator" content="docfx 2.7.3.0">
     
@@ -68,60 +68,46 @@
             <article class="content wrap" id="_content">
               
               
-              <h1 id="RESTful_Testful_Models_Game" data-uid="RESTful_Testful.Models.Game">Class Game
+              <h1 id="RESTful_Testful_Models_IGameRepository" data-uid="RESTful_Testful.Models.IGameRepository">Interface IGameRepository
               </h1>
-              <div class="markdown level0 summary"><p>Represents an individual instance of a Game that is found on an individual website</p>
-</div>
+              <div class="markdown level0 summary"></div>
               <div class="markdown level0 conceptual"></div>
-              <div class="inheritance">
-                <h5>Inheritance</h5>
-                  <div class="level0"><span class="xref">System.Object</span></div>
-                  <div class="level1"><span class="xref">Game</span></div>
-              </div>
-              <div class="inheritedMembers">
-                <h5>Inherited Members</h5>
-                <div>
-                  <span class="xref">System.Object.ToString()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.Equals(System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.GetHashCode()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.GetType()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.MemberwiseClone()</span>
-                </div>
-              </div>
               <h6><strong>Namespace</strong>:RESTful_Testful.Models</h6>
               <h6><strong>Assembly</strong>:RESTful_Testful.dll</h6>
-              <h5 id="RESTful_Testful_Models_Game_syntax">Syntax</h5>
+              <h5 id="RESTful_Testful_Models_IGameRepository_syntax">Syntax</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public class Game</code></pre>
+                <pre><code class="lang-csharp hljs">public interface IGameRepository</code></pre>
               </div>
-              <h3 id="properties">Properties
+              <h3 id="methods">Methods
               </h3>
               
               
-              <a id="RESTful_Testful_Models_Game_Genre_" data-uid="RESTful_Testful.Models.Game.Genre*"></a>
-              <h4 id="RESTful_Testful_Models_Game_Genre" data-uid="RESTful_Testful.Models.Game.Genre">Genre</h4>
-              <div class="markdown level1 summary"><p>The general genre of the video game (i.e. First-Person Shooter)</p>
-</div>
+              <a id="RESTful_Testful_Models_IGameRepository_Add_" data-uid="RESTful_Testful.Models.IGameRepository.Add*"></a>
+              <h4 id="RESTful_Testful_Models_IGameRepository_Add_RESTful_Testful_Models_Game_" data-uid="RESTful_Testful.Models.IGameRepository.Add(RESTful_Testful.Models.Game)">Add(Game)</h4>
+              <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public string Genre { get; set; }</code></pre>
+                <pre><code class="lang-csharp hljs">Game Add(Game game)</code></pre>
               </div>
-              <h5 class="propertyValue">Property Value</h5>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="RESTful_Testful.Models.Game.html#RESTful_Testful_Models_Game">Game</a></td>
+                    <td><em>game</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
               <table class="table table-bordered table-striped table-condensed">
                 <thead>
                   <tr>
@@ -131,48 +117,39 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.String</span></td>
+                    <td><a class="xref" href="RESTful_Testful.Models.Game.html#RESTful_Testful_Models_Game">Game</a></td>
                     <td></td>
                   </tr>
                 </tbody>
               </table>
               
               
-              <a id="RESTful_Testful_Models_Game_ID_" data-uid="RESTful_Testful.Models.Game.ID*"></a>
-              <h4 id="RESTful_Testful_Models_Game_ID" data-uid="RESTful_Testful.Models.Game.ID">ID</h4>
+              <a id="RESTful_Testful_Models_IGameRepository_Get_" data-uid="RESTful_Testful.Models.IGameRepository.Get*"></a>
+              <h4 id="RESTful_Testful_Models_IGameRepository_Get_System_Int32_" data-uid="RESTful_Testful.Models.IGameRepository.Get(System.Int32)">Get(Int32)</h4>
               <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public int ID { get; set; }</code></pre>
+                <pre><code class="lang-csharp hljs">Game Get(int id)</code></pre>
               </div>
-              <h5 class="propertyValue">Property Value</h5>
+              <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
                 <thead>
                   <tr>
                     <th>Type</th>
+                    <th>Name</th>
                     <th>Description</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td><span class="xref">System.Int32</span></td>
+                    <td><em>id</em></td>
                     <td></td>
                   </tr>
                 </tbody>
               </table>
-              
-              
-              <a id="RESTful_Testful_Models_Game_Name_" data-uid="RESTful_Testful.Models.Game.Name*"></a>
-              <h4 id="RESTful_Testful_Models_Game_Name" data-uid="RESTful_Testful.Models.Game.Name">Name</h4>
-              <div class="markdown level1 summary"><p>The common name of the video game</p>
-</div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
-              </div>
-              <h5 class="propertyValue">Property Value</h5>
+              <h5 class="returns">Returns</h5>
               <table class="table table-bordered table-striped table-condensed">
                 <thead>
                   <tr>
@@ -182,23 +159,22 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.String</span></td>
+                    <td><a class="xref" href="RESTful_Testful.Models.Game.html#RESTful_Testful_Models_Game">Game</a></td>
                     <td></td>
                   </tr>
                 </tbody>
               </table>
               
               
-              <a id="RESTful_Testful_Models_Game_Platform_" data-uid="RESTful_Testful.Models.Game.Platform*"></a>
-              <h4 id="RESTful_Testful_Models_Game_Platform" data-uid="RESTful_Testful.Models.Game.Platform">Platform</h4>
-              <div class="markdown level1 summary"><p>The platform this specific instance of the game runs on (i.e. PC)</p>
-</div>
+              <a id="RESTful_Testful_Models_IGameRepository_GetAll_" data-uid="RESTful_Testful.Models.IGameRepository.GetAll*"></a>
+              <h4 id="RESTful_Testful_Models_IGameRepository_GetAll" data-uid="RESTful_Testful.Models.IGameRepository.GetAll">GetAll()</h4>
+              <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public string Platform { get; set; }</code></pre>
+                <pre><code class="lang-csharp hljs">IEnumerable&lt;Game&gt; GetAll()</code></pre>
               </div>
-              <h5 class="propertyValue">Property Value</h5>
+              <h5 class="returns">Returns</h5>
               <table class="table table-bordered table-striped table-condensed">
                 <thead>
                   <tr>
@@ -208,23 +184,66 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.String</span></td>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;<a class="xref" href="RESTful_Testful.Models.Game.html#RESTful_Testful_Models_Game">Game</a>&gt;</td>
                     <td></td>
                   </tr>
                 </tbody>
               </table>
               
               
-              <a id="RESTful_Testful_Models_Game_Price_" data-uid="RESTful_Testful.Models.Game.Price*"></a>
-              <h4 id="RESTful_Testful_Models_Game_Price" data-uid="RESTful_Testful.Models.Game.Price">Price</h4>
-              <div class="markdown level1 summary"><p>The price of the video game at the specified vendor</p>
-</div>
+              <a id="RESTful_Testful_Models_IGameRepository_Remove_" data-uid="RESTful_Testful.Models.IGameRepository.Remove*"></a>
+              <h4 id="RESTful_Testful_Models_IGameRepository_Remove_System_Int32_" data-uid="RESTful_Testful.Models.IGameRepository.Remove(System.Int32)">Remove(Int32)</h4>
+              <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public double Price { get; set; }</code></pre>
+                <pre><code class="lang-csharp hljs">void Remove(int id)</code></pre>
               </div>
-              <h5 class="propertyValue">Property Value</h5>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>id</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="RESTful_Testful_Models_IGameRepository_Update_" data-uid="RESTful_Testful.Models.IGameRepository.Update*"></a>
+              <h4 id="RESTful_Testful_Models_IGameRepository_Update_RESTful_Testful_Models_Game_" data-uid="RESTful_Testful.Models.IGameRepository.Update(RESTful_Testful.Models.Game)">Update(Game)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">bool Update(Game game)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="RESTful_Testful.Models.Game.html#RESTful_Testful_Models_Game">Game</a></td>
+                    <td><em>game</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
               <table class="table table-bordered table-striped table-condensed">
                 <thead>
                   <tr>
@@ -234,85 +253,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Double</span></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
-              
-              
-              <a id="RESTful_Testful_Models_Game_ProductUrl_" data-uid="RESTful_Testful.Models.Game.ProductUrl*"></a>
-              <h4 id="RESTful_Testful_Models_Game_ProductUrl" data-uid="RESTful_Testful.Models.Game.ProductUrl">ProductUrl</h4>
-              <div class="markdown level1 summary"><p>The url on the vendor&#39;s web site where this game can be found</p>
-</div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public string ProductUrl { get; set; }</code></pre>
-              </div>
-              <h5 class="propertyValue">Property Value</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.String</span></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
-              
-              
-              <a id="RESTful_Testful_Models_Game_ReviewRating_" data-uid="RESTful_Testful.Models.Game.ReviewRating*"></a>
-              <h4 id="RESTful_Testful_Models_Game_ReviewRating" data-uid="RESTful_Testful.Models.Game.ReviewRating">ReviewRating</h4>
-              <div class="markdown level1 summary"><p>The review rating of the game (if one exists) as provided by Game Informer</p>
-</div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public double ReviewRating { get; set; }</code></pre>
-              </div>
-              <h5 class="propertyValue">Property Value</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.Double</span></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
-              
-              
-              <a id="RESTful_Testful_Models_Game_Vendor_" data-uid="RESTful_Testful.Models.Game.Vendor*"></a>
-              <h4 id="RESTful_Testful_Models_Game_Vendor" data-uid="RESTful_Testful.Models.Game.Vendor">Vendor</h4>
-              <div class="markdown level1 summary"><p>The specific vendor selling this instance of the game</p>
-</div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public string Vendor { get; set; }</code></pre>
-              </div>
-              <h5 class="propertyValue">Property Value</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.String</span></td>
+                    <td><span class="xref">System.Boolean</span></td>
                     <td></td>
                   </tr>
                 </tbody>
